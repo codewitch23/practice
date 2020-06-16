@@ -11,7 +11,6 @@ class PostsController extends Controller
 {
     public function show($id)
     {
-        // $post = DB::table('posts')->where('id', $id)->first();
-        return view('test',['post'=> Post::where('id',$id)->firstOrFail()]);
+
     }
 }
