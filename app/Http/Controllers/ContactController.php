@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+The Ultimate Advanced Laravel Pro course
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\Contact;
